@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}Home - My Website{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h2>Welcome to Our Amazing Website</h2>
+    <p>Experience the best UI and smooth navigation.</p>
+    <a href="/dashboard" class="btn">Get Started</a>
+</section>
+
+<section class="features">
+    <h3>Our Features</h3>
+    <div class="card-container">
+        <div class="card">
+            <h4>Fast Performance</h4>
+            <p>Lightning-fast response times.</p>
+        </div>
+        <div class="card">
+            <h4>Secure</h4>
+            <p>Top-notch security for your data.</p>
+        </div>
+        <div class="card">
+            <h4>User Friendly</h4>
+            <p>Intuitive and simple to use.</p>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <h3>What Our Users Say</h3>
+    <p>"This website is incredible!" - Jane Doe</p>
+</section>
+{% endblock %}
